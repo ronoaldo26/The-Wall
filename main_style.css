@@ -1,0 +1,176 @@
+/* STYLE FOR main.php */
+.registration_container{
+    display: block;
+    width: 900px;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 30px;
+    }
+    .registration_container h1, h2, h3, h4{
+        display: block;
+        text-align: center;
+    }
+    .registration_container h3{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .registration_container h2{
+        margin-top: 0px;
+    }
+    .registration_container h4{
+        width: 300px;
+        margin: 30px auto;
+        text-align: justify;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    input{
+        display: block;
+        margin: auto;
+        margin-top: 50px;                    
+        padding: 5px 10px;
+        text-align: center;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+    }
+.login_container{
+    display: block;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    height: 600px;
+    width: 900px;
+}
+    .account_page{
+        display: block;
+        background-color: lightseagreen;
+        padding: 20px;
+    }
+        .account_page h3{
+            display: inline-block;
+            width: 550px;
+            margin: 0px;
+            margin-right: 50px;
+            text-align: right;
+        }
+        .account_page p{
+            display: inline-block;
+            text-align: left;
+            font-size: 15px;
+            margin: 0px;
+            margin-right: 5px;
+        }
+        .account_page h2{
+            display: inline-block;
+            margin: 0px;
+        }
+        .account_page form{
+            display: inline-block;
+            vertical-align: top;
+        }
+        #logout{
+            margin: 0px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    .message_page{
+        display: inline-block;
+        width: 780px;
+        height: 480px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 50px 10px 50px;
+        vertical-align: top;
+        overflow: auto;
+        border-bottom: 5px solid black;
+    }
+        #message{
+            width: 770px;
+            overflow: auto;
+            overflow-wrap: break-word;
+            resize: none;
+        }
+        .message_page p{
+            display: inline-block;
+            margin: 0px;
+            margin-bottom: 0px;
+        }
+        #post{
+            display: block;
+            background-color: blue;
+            margin: 0px;
+            margin-left: auto;
+            cursor: pointer;
+        }
+        .message_page h5{
+            display: inline-block;
+            margin-bottom: 0px;
+        }
+        .message_page form{
+            display: inline-block;
+        }
+        .message_page h6{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding: 5px 20px;
+            text-align: justify;
+            border: 1px solid gray;
+            border-bottom: 3px solid blue;
+            border-radius: 20px;
+        }
+            #delete{
+                display: inline-block;
+                margin: 0px;
+                padding: 0px;
+                text-decoration: underline;
+                background-color: white;
+                cursor: pointer;
+                color: blue;
+                border: 1px solid white;
+                border-color: white;
+            }
+            .delete_message{
+                display: inline-block;
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+        .reply_container{
+            display: block;
+        }
+            .reply_container p{
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+            .reply_container textarea{
+                margin-left: 20px;
+                width: 735px;
+                overflow: auto;
+                overflow-wrap: break-word;
+                resize: none;
+            }
+            #post_comment{
+                display: block;
+                background-color: green;
+                margin: 0px;
+                margin-left: auto;
+                cursor: pointer;
+            }
+            .reply_container h5{
+                margin-top: 5px;
+                margin-left: 20px;
+            }
+            .reply_container h6{
+                margin-left: 20px;
+                border-top: 0px;
+                border-right: 0px;
+                border-bottom: 2px solid green;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+            }
+            
